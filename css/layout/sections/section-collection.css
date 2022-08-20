@@ -1,0 +1,17 @@
+.collection{
+    min-height: 110vh;
+    background-color: var(--color-secondary-light);
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(40rem,1fr));
+    padding: 2rem;
+    /* justify-content: center; */
+    justify-items: center;
+    align-items: center;
+}
+
+@media (max-width:600px) {
+    .collection{
+        padding: 0;
+        grid-template-columns: repeat(auto-fill,minmax(35rem,1fr));
+    }
+}

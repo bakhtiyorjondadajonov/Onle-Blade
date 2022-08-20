@@ -1,0 +1,45 @@
+
+.partners{
+display: flex;
+flex-direction: column;
+gap: 3rem;
+padding: 3rem;
+
+
+}
+.partners__title{
+text-align: center;
+color: #8F8F8F;
+font-size: 1.4rem;
+line-height: 1.6rem;
+letter-spacing: 0.16em;
+text-transform: uppercase;
+font-weight: 600;
+font-family: var(--font-text);
+
+
+
+}
+.partners__logos{
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(170px,1fr));
+gap: 1rem;
+align-items: center;
+justify-items: center;
+}
+.logo-wrapper{
+width: 155px;
+height:86px;
+}
+.logo-wrapper img{
+    object-fit: contain;
+}
+@media (max-width:400px) {
+    .partners__logos{
+        grid-template-columns: repeat(auto-fill,minmax(130px,1fr));
+    }
+    .logo-wrapper{
+        width: 120px;
+        height:60px;
+        }   
+}

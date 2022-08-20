@@ -1,0 +1,19 @@
+.title{
+letter-spacing: 1.4rem;
+text-transform: uppercase;
+}
+.paragraph{
+    font-family: var(--font-text);
+font-size: 1.6rem;
+line-height: 2.6rem;
+letter-spacing: 0em;
+font-weight: 400;
+text-align: left;
+color: var(--color-primary-light);
+}
+
+@media (max-width:400px) {
+    .title{
+        letter-spacing: 0.5rem;
+    }
+}

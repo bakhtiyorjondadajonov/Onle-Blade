@@ -1,0 +1,43 @@
+.section-blockquote{
+    margin-top: 2rem;
+height: 70vh;
+background-color: var(--color-primary);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 3rem;
+}
+.blockquote{
+    font-family: var(--font-header);
+    font-size: 2.8rem;
+    line-height: 3.9rem;
+    letter-spacing: 0.4em;
+    text-align: center;
+    color: var(--color-secondary-light);
+    font-weight: 400;
+    width: 60%;
+}
+.citation{
+    font-family:var(--font-header);
+    font-weight: 200 !important;
+    color:#BEBEBE;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 90%;
+    
+}
+@media (max-width:850px) {
+    .blockquote{
+        width: 85%;
+    }
+}
+@media (max-width:500px) {
+    .blockquote{
+        letter-spacing: 0.8rem;
+        font-size: 2.5rem;
+    line-height: 3rem;
+    }
+}
