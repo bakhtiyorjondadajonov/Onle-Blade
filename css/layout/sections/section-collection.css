@@ -2,12 +2,23 @@
     min-height: 110vh;
     background-color: var(--color-secondary-light);
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(40rem,1fr));
+    grid-template-columns:repeat(3,1fr);;
+   
+    
     padding: 2rem;
     /* justify-content: center; */
     justify-items: center;
     align-items: center;
 }
+
+@media (max-width:900px) {
+    .collection{
+        grid-template-columns:repeat(2,1fr);; 
+     
+    }
+
+}
+
 
 @media (max-width:600px) {
     .collection{

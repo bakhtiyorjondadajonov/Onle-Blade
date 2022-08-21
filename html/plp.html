@@ -8,34 +8,161 @@
     <script type="module" src="../js/controller/controller.js"></script>
   </head>
   <body>
-    <div class="container">
-      <div class="advertisement">
-        <a href="#" class="advertisement__content">
-          Check out our <span class="event">Holiday</span> Sale! Click here to
-          shop now &#x279E;
-        </a>
-        <div class="avertisement__close-icon">&times;</div>
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="list-icon hamburger">
+          <img src="../public/icons/hamburger.svg" alt="hamburger" />
+        </li>
+        <li class="list-icon list-icon--logo">
+          <img src="../public/logo.svg" alt="logo" />
+        </li>
+        <li class="list-item">Razors</li>
+        <li class="list-item">Shaving Supplies</li>
+        <li class="list-item">Gifts</li>
+        <li class="list-item">The Story</li>
+        <li class="list-item">The Diffrence</li>
+        <li class="list-item">More</li>
+        <li class="list-icon list-icon--avatar-cart">
+          <img src="../public/icons/avatar.svg" alt="avatar img" />
+          <img src="../public/icons/cart.svg" alt="cart img" />
+        </li>
+      </ul>
+    </nav>
+    <header class="header header--plp">
+      <div class="header--plp__content">
+        <h1 class="title title--plp-header">
+          Lorem ipsum dolor sit amet, consectetur
+        </h1>
+        <div class="sub-title sub-title--plp-header">
+          Sed ut perspiciatis unde
+        </div>
       </div>
-      <nav class="navigation">
-        <ul class="navigation__list">
-          <li class="list-icon hamburger">
-            <img src="../public/icons/hamburger.svg" alt="hamburger" />
-          </li>
-          <li class="list-icon list-icon--logo">
-            <img src="../public/logo.svg" alt="logo" />
-          </li>
-          <li class="list-item">Razors</li>
-          <li class="list-item">Shaving Supplies</li>
-          <li class="list-item">Gifts</li>
-          <li class="list-item">The Story</li>
-          <li class="list-item">The Diffrence</li>
-          <li class="list-item">More</li>
-          <li class="list-icon list-icon--avatar-cart">
-            <img src="../public/icons/avatar.svg" alt="avatar img" />
-            <img src="../public/icons/cart.svg" alt="cart img" />
-          </li>
-        </ul>
-      </nav>
-    </div>
+      <div class="header__hero header__hero--plp">
+        <img src="../public/plp-header-hero.jpg" alt="header hero" />
+      </div>
+    </header>
+    <h1 class="title title--plp">All Products</h1>
+    <section class="category">
+      <ul class="category__list">
+        <li class="category__title">Category</li>
+        <li class="category__item">Razors</li>
+        <li class="category__item">Skincare</li>
+        <li class="category__item">other</li>
+      </ul>
+    </section>
+    <section class="collection collection--plp">
+      <div class="collection-name">Razors</div>
+      <div class="product">
+        <div class="product__img-box product__img-box--plp">
+          <img src="../public/product.png" alt="product" class="" />
+        </div>
+        <form action="#" class="product__form">
+          <div class="product__swatches-box">
+            <!-- <input
+              class="swatch swatch--brown"
+              type="radio"
+              name="first"
+              id="brown"
+            />
+            <label for="brown" class="label label--brown"
+              ><span class="checkmark">&nbsp;</span></label
+            >
+            <input
+              class="swatch swatch--brown"
+              type="radio"
+              name="first"
+              id="brown"
+            />
+            <label for="brown" class="label label--brown"
+              ><span class="checkmark">&nbsp;</span></label
+            > -->
+          </div>
+          <div class="title title--product">product title</div>
+          <div class="product__price">
+            <span class="current-price">From $99.00</span>
+            &nbsp;
+            <span class="original-price hidden-mobile">$150.00</span>
+          </div>
+        </form>
+      </div>
+      <div class="product">
+        <div class="product__img-box product__img-box--plp">
+          <img src="../public/product.png" alt="product" class="" />
+        </div>
+        <form action="#" class="product__form">
+          <div class="product__swatches-box">
+            <!-- <input
+              class="swatch swatch--brown"
+              type="radio"
+              name="first"
+              id="brown"
+            />
+            <label for="brown" class="label label--brown"
+              ><span class="checkmark">&nbsp;</span></label
+            >
+            <input
+              class="swatch swatch--brown"
+              type="radio"
+              name="first"
+              id="brown"
+            />
+            <label for="brown" class="label label--brown"
+              ><span class="checkmark">&nbsp;</span></label
+            > -->
+          </div>
+          <div class="title title--product">product title</div>
+          <div class="product__price">
+            <span class="current-price">From $99.00</span>
+            &nbsp;
+            <span class="original-price hidden-mobile">$150.00</span>
+          </div>
+        </form>
+      </div>
+      <div class="product">
+        <div class="product__img-box product__img-box--plp">
+          <img src="../public/product.png" alt="product" class="" />
+        </div>
+        <form action="#" class="product__form">
+          <div class="product__swatches-box">
+            <!-- <input
+              class="swatch swatch--brown"
+              type="radio"
+              name="first"
+              id="brown"
+            />
+            <label for="brown" class="label label--brown"
+              ><span class="checkmark">&nbsp;</span></label
+            >
+            <input
+              class="swatch swatch--brown"
+              type="radio"
+              name="first"
+              id="brown"
+            />
+            <label for="brown" class="label label--brown"
+              ><span class="checkmark">&nbsp;</span></label
+            > -->
+          </div>
+          <div class="title title--product">product title</div>
+          <div class="product__price">
+            <span class="current-price">From $99.00</span>
+            &nbsp;
+            <span class="original-price hidden-mobile">$150.00</span>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="media media--plp media--third">
+      <div class="media__banner media__banner-third">
+        <img src="../public/3razors.jpg" alt="shaving man" />
+      </div>
+      <div class="media__content media__content--plp media__content--third">
+        <h2 class="title title--media">Lorem ipsum dolor sit amet</h2>
+        <p class="paragraph paragraph--media">
+          Sed ut perspiciatis unde omnis iste natus error sit
+        </p>
+        <a href="#" class="btn btn--dark btn--media">find us on social</a>
+      </div>
+    </section>
   </body>
 </html>

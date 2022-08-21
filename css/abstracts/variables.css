@@ -2,13 +2,13 @@
     font-family: 'Gilroy-Light';
     font-style: normal;
     font-weight: normal;
-    src: local('Gilroy-Light'), url('../../Gilroy-FREE/Gilroy-FREE/Gilroy-Light.otf') format('truetype');
+    src: local('Gilroy-Light'), url('../../Gilroy-FREE/Gilroy-Light.otf') format('truetype');
   }
   @font-face {
     font-family: 'Gilroy-ExtraBold';
     font-style: normal;
     font-weight: normal;
-    src: local('Gilroy-ExtraBold'), url('../../Gilroy-FREE/Gilroy-FREE/Gilroy-ExtraBold.otf') format('truetype');
+    src: local('Gilroy-ExtraBold'), url('../../Gilroy-FREE/Gilroy-ExtraBold.otf') format('truetype');
   }
   :root {
     --color-primary:#1C1C1E;

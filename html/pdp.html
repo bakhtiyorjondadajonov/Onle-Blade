@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Razor Shop | PDP</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100;200;300;400;500;600;700;800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script type="module" src="../js/controller/controller.js"></script>
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="list-icon hamburger">
+          <img src="../public/icons/hamburger.svg" alt="hamburger" />
+        </li>
+        <li class="list-icon list-icon--logo">
+          <img src="../public/logo.svg" alt="logo" />
+        </li>
+        <li class="list-item">Razors</li>
+        <li class="list-item">Shaving Supplies</li>
+        <li class="list-item">Gifts</li>
+        <li class="list-item">The Story</li>
+        <li class="list-item">The Diffrence</li>
+        <li class="list-item">More</li>
+        <li class="list-icon list-icon--avatar-cart">
+          <img src="../public/icons/avatar.svg" alt="avatar img" />
+          <img src="../public/icons/cart.svg" alt="cart img" />
+        </li>
+      </ul>
+    </nav>
+    <header class="header header--pdp">
+      <div class="product-gallery">
+        <img src="../public/3razors.jpg" alt="" />
+      </div>
+      <div class="product-info">
+        <div class="product__meta">
+          <div class="product__intro">
+            <div class="product__name-pdp">genesis razor</div>
+            <div class="product__price-pdp">$24.99</div>
+          </div>
+          <ul class="review">
+            <li class="start star--filled">&nbsp;</li>
+            <li class="start star--filled star--empty">&nbsp;</li>
+            <li class="start star--filled">&nbsp;</li>
+            <li class="start star--filled">&nbsp;</li>
+            <li class="start star--filled">&nbsp;</li>
+            <li class="reviews-numb">13 reviews</li>
+          </ul>
+          <div class="affirm-message">
+            <span>Financing as low as $23/month with</span>
+            <div class="affirm-img-box">&nbsp;</div>
+          </div>
+          <div class="meta-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex .
+          </div>
+        </div>
+        <div class="select-color">
+          <span class="color-tag"
+            >Color: <span class="color-name">Gold</span></span
+          >
+          <div class="color-swatch-box"></div>
+        </div>
+
+        <div class="select-plan-box">
+          <span class="select-plan">Select a plan:</span>
+          <div class="select-plan__sawtch-box"></div>
+        </div>
+        <div class="refill-container">
+          <div class="refill-selection-box">
+            <div class=" card--active card card--refill">
+              <div class="refill__img-box">
+                <img src="../public/icons/refill-1.png" alt="" />
+              </div>
+              <div class="refill__product-name">
+                OneBlade Black tile after shave balm
+              </div>
+              <div class="refill__price">$3.50</div>
+            </div>
+            <div class="card card--refill">
+              <div class="refill__img-box">
+                <img src="../public/icons/refill-2.png" alt="" />
+              </div>
+              <div class="refill__product-name">
+                OneBlade Black tile after shave balm
+              </div>
+              <div class="refill__price">$3.50</div>
+            </div>
+            <div class="card card--refill">
+              <div class="refill__img-box">
+                <img src="../public/icons/refil-3.png" alt="" />
+              </div>
+              <div class="refill__product-name">
+                OneBlade Black tile after shave balm
+              </div>
+              <div class="refill__price">$3.50</div>
+            </div>
+          </div>
+          <div class="refill__dropdown">
+            <span class="refill__dropdown-function">Delivery every:</span>
+            <div class="selector">
+              <div class="select-field">
+                <div class="
+                ">
+                <span class="delivery-period">6 months</span>(I shave once aweek or less)
+            </div>
+            <div class="selector__img-box">
+                <img src="../public/icons/arrow.png" alt="" class="selector__img">
+
+            </div>
+                
+              </div>
+              <ul class="drop-down__list hidden">
+                <li class="option">
+                    <div>
+                    <span class="delivery-period">3 months &nbsp;</span>(I shave my beard everyday)
+                </div>
+            </li>
+                <li class="option">
+                    <div>
+                    <span class="delivery-period">6 months &nbsp;</span>(I shave my beard once a week)
+                </div>
+            </li>
+             
+            </ul>
+            </div>
+              
+            </select>
+          </div>
+
+        </div>
+        <div class="engraving-container">
+            <div class="checkbox-box">
+                <input class="engraving__checkbox" id="engraving" type="checkbox">
+                <label for="engraving" class="engraving__checkbox-label">Add Engraving(+$10)</label>
+
+            </div>
+            <input type="text" id="engraving__input" class="engraving__input" placeholder="Type Your Engraving here...">
+            <label for="engraving__input" class="engraving__input-label">16 characters maximum</label>
+        </div>
+        <button class="btn btn--cart">Add to cart</button>
+        <div class="refound-text">
+            If you don’t like it, send it back for a full refund within 60 days. You’ve got nothing to lose.
+        </div>
+      </div>
+    </header>
+  </body>
+</html>

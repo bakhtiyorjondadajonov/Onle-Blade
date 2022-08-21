@@ -18,3 +18,30 @@ background-color: var(--color-secondary-light);
     background-color: var(--color-primary-dark);
 
 }
+
+
+/* ------------------ REVIEW ---------------- */
+.review{
+    list-style:none;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+}
+.start{
+    width: 16px;
+    height: 16px;
+}
+.star--filled{
+background-image: url("../../public/icons/filled\ star.svg");
+background-repeat: no-repeat;
+}
+.reviews-numb{
+    font-family: var(--font-text);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}

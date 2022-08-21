@@ -1,0 +1,14 @@
+.hidden-mobile{
+   
+}
+.hidden{
+    display: none;
+}
+.card--active{
+    border: 1px solid black;
+}
+@media (max-width:600px) {
+    .hidden-mobile{
+        display: none;
+    }
+}

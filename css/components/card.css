@@ -41,7 +41,7 @@ gap: 1rem;
 color: var(--color-primary-dark);
 }
 .original-price{
-    color: var(--color-primary-light);
+    color: rgb(179, 177, 177);
     text-decoration: line-through;
 }
 .product__description{
@@ -93,6 +93,42 @@ gap: 1.5rem;
     color: var(--color-primary);
     
 }
+/* ----------------------- CARD REFILL ----------- */
+.card--refill{
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+background-color: white;
+padding: 1rem;
+justify-items: center;
+align-items: center;
+}
+.refill__img-box{
+width: 90%;
+height: 100%;
+}
+.refill__img-box img{
+    object-fit: contain;
+}
+.refill__product-name{
+    font-family:var(--font-text);
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-weight: 300; 
+}
+.refill__price{
+    font-family:var(--font-text);
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+color: rgb(179, 179, 179);
+
+
+}
+
 
 @media (max-width:600px) {
     .subscription-card:not(:first-child){
@@ -101,6 +137,10 @@ gap: 1.5rem;
  
 
     }
+    .title--product,.product__price{
+        font-size: 14px;
+    }
+    
 }
 
 

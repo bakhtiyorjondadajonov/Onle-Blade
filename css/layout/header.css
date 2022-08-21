@@ -51,6 +51,68 @@ line-height: 8rem;
   text-align: left;
   
 }
+
+
+/* ------------------------ PLP HEADER ---------------- */
+.header--plp{
+display: grid;
+
+grid-template-columns: repeat(2,1fr);
+height: 100vh;
+overflow: hidden;
+
+}
+.header--plp__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+   
+ background-image: url("../../public/plp-header-bg.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+.title--plp-header{
+    font-family:var(--font-header);
+font-size: 3.2rem;
+line-height: 4rem;
+letter-spacing: 0.16em;
+text-align: center;
+}
+
+.sub-title--plp-header{
+    font-family: var(--font-text);
+    font-weight: 400;
+font-size: 1.6rem;
+line-height: 2.4rem;
+letter-spacing: 0em;
+text-align: center;
+color: var(--color-primary);
+
+}
+.header__hero--plp{
+width: 100%;
+height: 100%;
+
+}
+
+.header__hero--plp  img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width:1275px) {
     .title--header{
         font-size: 4.6rem;
@@ -68,6 +130,14 @@ line-height: 8rem;
 }
 
 }
+
+@media (max-width:900px) {
+    .header--plp{
+        height: 70vh;
+    }
+    
+}
+
 @media (max-width:700px) {
     .header--home{
         grid-template-columns: 1fr;
@@ -91,6 +161,18 @@ text-align: center;
         grid-column: 1/-1;
         grid-row: 2/3;
 
+    }
+    .header--plp{
+        grid-template-columns: 1fr;
+       
+      
+    }
+    .header--plp__content{
+        padding: 3rem;
+      
+    }
+    .header__hero--plp{
+        display: none;
     }
     .btn--header{
         grid-column: 1/-1;
