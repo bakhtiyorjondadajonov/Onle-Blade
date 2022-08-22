@@ -10,6 +10,18 @@
     font-weight: normal;
     src: local('Gilroy-ExtraBold'), url('../../Gilroy-FREE/Gilroy-ExtraBold.otf') format('truetype');
   }
+  @font-face {
+    font-family: 'Gilroy-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Regular'), url('../../gilroy/Gilroy-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Bold'), url('../../gilroy/Gilroy-Bold.ttf') format('truetype');
+  }
   :root {
     --color-primary:#1C1C1E;
     /* ------- for paragraph ----------- */
@@ -20,6 +32,8 @@
     --color-secondary-light:#fff;
     --color-tertiary:#111111;
     --font-header: 'Gilroy-ExtraBold', sans-serif;
+    --font-regular: 'Gilroy-Regular', sans-serif;
+    --font-bold: 'Gilroy-Bold', sans-serif;
     --font-text: 'Gilroy-Light', sans-serif;
     --font-secondary:'Montserrat', sans-serif;
   }

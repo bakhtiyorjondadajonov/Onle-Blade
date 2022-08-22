@@ -75,19 +75,19 @@ align-items: center;
 gap: 1.5rem;
 }
 .title--subscription-card{
-    font-family:var(--font-header);
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-family:var(--font-bold);
+    font-size: 14px;
+    line-height: 16px;
     letter-spacing: 0.16em;
     text-align: center;
-    font-weight: 700;  
+     
 }
 .subscription-card__content{
  width: 90%;
-    font-family: var(--font-header);
-    font-size: 1.6rem;
-    font-weight: 300;
-    line-height: 2.4rem;
+    font-family: var(--font-regular);
+    font-size: 16px;
+    /* font-weight: 300; */
+    line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
     color: var(--color-primary);
@@ -130,6 +130,12 @@ color: rgb(179, 179, 179);
 }
 
 
+@media (max-width:900px) {
+
+    .product__description{
+        font-size: 16px;
+    }
+}
 @media (max-width:600px) {
     .subscription-card:not(:first-child){
 

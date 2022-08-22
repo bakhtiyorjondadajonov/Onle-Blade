@@ -6,7 +6,7 @@ if (elem) {
     // options
     cellAlign: "left",
     contain: true,
-    pageDots: false,
+    pageDots: true,
     //   dots: false,
   });
 }
