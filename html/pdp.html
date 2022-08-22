@@ -9,7 +9,9 @@
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100;200;300;400;500;600;700;800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="../css/style.css" />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script type="module" src="../js/controller/controller.js"></script>
   </head>
   <body>
@@ -35,7 +37,13 @@
     </nav>
     <header class="header header--pdp">
       <div class="product-gallery">
-        <img src="../public/3razors.jpg" alt="" />
+        <div class="main-carousel">
+          <div class="carousel-cell"><img src="../public/product.png" alt="3 razor"></div>
+          <div class="carousel-cell"><img src="../public/3razors.jpg" alt="3 razor"></div>
+          <div class="carousel-cell"><img src="../public/3razors.jpg" alt="3 razor"></div>
+         
+          
+        </div>
       </div>
       <div class="product-info">
         <div class="product__meta">
@@ -66,7 +74,17 @@
           <span class="color-tag"
             >Color: <span class="color-name">Gold</span></span
           >
-          <div class="color-swatch-box"></div>
+          <div class="product__swatches-box">
+            <div class="checkbox-label checkbox-label--checked">
+              <div class="checkbox checkbox--brown">&nbsp;</div>
+            </div>
+            <div class="checkbox-label">
+              <div class="checkbox checkbox--grey">&nbsp;</div>
+            </div>
+            <div class="checkbox-label">
+              <div class="checkbox checkbox--black">&nbsp;</div>
+            </div>
+          </div>
         </div>
 
         <div class="select-plan-box">
@@ -151,5 +169,112 @@
         </div>
       </div>
     </header>
+    <section class="media media--third media--pdp-first">
+      <div class="media__banner media__banner-third">
+        <img src="../public/cta-img1.png" alt="shaving man" />
+      </div>
+      <div class="media__content media__content--third">
+        <h2 class="title title--media">
+          Lorem ipsum dolor sit amet, consectetur
+        </h2>
+        <p class="paragraph paragraph--media">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto
+        </p>
+        
+      </div>
+    </section>
+    <section class="media media--third media--pdp-second">
+      <div class="media__banner media__banner-third media__banner--pdp-second">
+        <img src="../public/cta-img2.png" alt="shaving man" />
+      </div>
+      <div class="media__content media__content--third media__content--pdp-second">
+        <h2 class="title title--media">
+          Lorem ipsum dolor sit amet, consectetur
+        </h2>
+        <p class="paragraph paragraph--media">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto
+        </p>
+        
+      </div>
+    </section>
+    <section class="collection collection--recommendation">
+      <div class="collection- collection-name--pdp">You might also like</div>
+      <div class="product">
+        <div class="product__img-box product__img-box--plp">
+          <img src="../public/product.png" alt="product" class="" />
+        </div>
+        <form action="#" class="product__form">
+          <div class="product__swatches-box">
+            <div class="checkbox-label checkbox-label--checked">
+              <div class="checkbox checkbox--brown">&nbsp;</div>
+            </div>
+            <div class="checkbox-label">
+              <div class="checkbox checkbox--disabled">&nbsp;</div>
+            </div>
+            <div class="checkbox-label">
+              <div class="checkbox checkbox--black">&nbsp;</div>
+            </div>
+          </div>
+          <div class="title title--product">product title</div>
+          <div class="product__price">
+            <span class="current-price">From $99.00</span>
+            &nbsp;
+            <span class="original-price hidden-mobile">$150.00</span>
+          </div>
+        </form>
+      </div>
+      <div class="product">
+        <div class="product__img-box product__img-box--plp">
+          <img src="../public/product.png" alt="product" class="" />
+        </div>
+        <form action="#" class="product__form">
+          <div class="product__swatches-box">
+            <div class="checkbox-label checkbox-label--checked">
+              <div class="checkbox checkbox--brown">&nbsp;</div>
+            </div>
+            <div class="checkbox-label">
+              <div class="checkbox checkbox--disabled">&nbsp;</div>
+            </div>
+            <div class="checkbox-label">
+              <div class="checkbox checkbox--black">&nbsp;</div>
+            </div>
+          </div>
+          <div class="title title--product">product title</div>
+          <div class="product__price">
+            <span class="current-price">From $99.00</span>
+            &nbsp;
+            <span class="original-price hidden-mobile">$150.00</span>
+          </div>
+        </form>
+      </div>
+      <div class="product">
+        <div class="product__img-box product__img-box--plp">
+          <img src="../public/product.png" alt="product" class="" />
+        </div>
+        <form action="#" class="product__form">
+          <div class="product__swatches-box">
+            <div class="checkbox-label checkbox-label--checked">
+              <div class="checkbox checkbox--brown">&nbsp;</div>
+            </div>
+            <div class="checkbox-label">
+              <div class="checkbox checkbox--disabled">&nbsp;</div>
+            </div>
+            <div class="checkbox-label">
+              <div class="checkbox checkbox--black">&nbsp;</div>
+            </div>
+          </div>
+          <div class="title title--product">product title</div>
+          <div class="product__price">
+            <span class="current-price">From $99.00</span>
+            &nbsp;
+            <span class="original-price hidden-mobile">$150.00</span>
+          </div>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
