@@ -346,7 +346,9 @@ position: relative;
     .main-carousel{
         padding: 1rem;
     }
-
+    .product-gallery{
+        height: 100vh;
+    }
 }
 
 @media (max-width:750px) {
@@ -372,6 +374,10 @@ position: relative;
     .collection-name--pdp{
         left: 50%;
         transform: translateX(-50%);
+    }
+    .collection--recommendation{
+        grid-template-columns: repeat(2,1fr);
+        min-height: auto;
     }
 }
 @media (max-width:450px) {
