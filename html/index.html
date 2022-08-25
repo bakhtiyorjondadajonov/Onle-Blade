@@ -21,6 +21,98 @@
       <div class="avertisement__close-icon">&times;</div>
     </div>
     <nav class="navigation">
+      <div class="content-container">
+        <div class="cart-container">
+          <h1 class="title cart--title">cart</h1>
+          <h1 class="cart-close_btn">&times;</h1>
+          <div class="cart-product">
+            <div class="cart-product__img-box">
+              <img src="../public/product.png" alt="product" />
+            </div>
+            <div class="cart-product__details">
+              <div class="cart-product__name">Core Razor</div>
+              <div class="cart-product__color">Black</div>
+              <div class="cart-product__qty">
+                <span class="qty__minus">-</span>
+                <span class="qty__number">1</span>
+                <span class="qty__plus">+</span>
+              </div>
+            </div>
+            <div class="product__price product__price--cart">
+              <span class="current-price">$24.99</span>
+              <span class="original-price">$50.00</span>
+            </div>
+          </div>
+          <div class="cart-product">
+            <div class="cart-product__img-box">
+              <img src="../public/product.png" alt="product" />
+            </div>
+            <div class="cart-product__details">
+              <div class="cart-product__name">Core Razor</div>
+              <div class="cart-product__color">1 Oz.</div>
+              <div class="cart-product__qty">
+                <span class="qty__minus">-</span>
+                <span class="qty__number">1</span>
+                <span class="qty__plus">+</span>
+              </div>
+            </div>
+            <div class="product__price product__price--cart">
+              <span class="current-price">$24.99</span>
+              <span class="original-price">$50.00</span>
+            </div>
+          </div>
+          <a href="#" class="cart-suggestion">Get Refill Plan, Save 20%</a>
+        </div>
+        <div class="cart-container cart-container--add">
+          <div class="cart-product">
+            <div class="cart-product__img-box">
+              <img src="../public/product.png" alt="product" />
+            </div>
+            <div class="cart-product__details">
+              <div class="cart-product__name">Core Razor</div>
+              <div class="cart-product__notification">
+                $10 off when you add in the next 5 minutes
+              </div>
+              <div class="btn btn--add">Add</div>
+            </div>
+            <div class="product__price product__price--add">
+              <span class="original-price">$50.00</span>
+              <span class="current-price">$24.99</span>
+            </div>
+          </div>
+          <div class="cart-product">
+            <div class="cart-product__img-box">
+              <img src="../public/product.png" alt="product" />
+            </div>
+            <div class="cart-product__details">
+              <div class="cart-product__name">Core Razor</div>
+              <div class="cart-product__notification">
+                $10 off when you add in the next 5 minutes
+              </div>
+              <div class="btn btn--add">Add</div>
+            </div>
+            <div class="product__price product__price--add">
+              <span class="original-price">$50.00</span>
+              <span class="current-price">$24.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="cart-subtotal">
+          <div class="sub-title sub-title--cart">Subtotal</div>
+          <div class="subtotal__notification">
+            You’re $1 away from Free Shipping
+          </div>
+          <div class="indicator-box">
+            <div class="indicator">&nbsp;</div>
+          </div>
+          <div class="btn btn--dark btn--checkbox">checkout</div>
+          <div class="subtotal__affirm">
+            <span>Starting at %23/mo with</span>
+            <div class="affirm-img-box">&nbsp;</div>
+            <a href="#" class="affirm__link">.Learn More</a>
+          </div>
+        </div>
+      </div>
       <ul class="navigation__list">
         <li class="list-icon hamburger">
           <img src="../public/icons/hamburger.svg" alt="hamburger" />
@@ -36,7 +128,11 @@
         <li class="list-item">More</li>
         <li class="list-icon list-icon--avatar-cart">
           <img src="../public/icons/avatar.svg" alt="avatar img" />
-          <img src="../public/icons/cart.svg" alt="cart img" />
+          <img
+            class="cart-button"
+            src="../public/icons/cart.svg"
+            alt="cart img"
+          />
         </li>
       </ul>
     </nav>
@@ -300,5 +396,25 @@
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="social">
+        <div class="social__icon facebook"></div>
+        <div class="social__icon instagram"></div>
+        <div class="social__icon youtube"></div>
+      </div>
+      <form action="#" class="footer__form">
+        <input
+          type="text"
+          class="footer__input"
+          placeholder="Write your email..."
+        />
+        <button class="btn btn--light btn--footer">Join the family</button>
+      </form>
+      <div class="footer_content">
+        The only way to discover exclusive deals,<br />
+        new product launches and more
+      </div>
+      <div class="gift-box"></div>
+    </footer>
   </body>
 </html>

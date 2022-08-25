@@ -1,0 +1,112 @@
+.footer{
+    background: #1C1C1E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 8rem;
+    position: relative;
+    flex-wrap: wrap;
+    row-gap: 3rem;
+}
+.social{
+width: 120px;
+height: 24px;
+display: flex;
+gap:1.5rem ;
+}
+.social__icon{
+width: 24px;
+height: 24px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.facebook{
+background-image: url("../../public/icons/socials/facebook.png");
+}
+.instagram{
+    background-image: url("../../public/icons/socials/instagram.png")
+}
+.youtube{
+    background-image: url("../../public/icons/socials/youtube.png")
+}
+.footer__form{
+display: flex;
+gap: 1.5rem;
+
+}
+.footer__input,.footer__input::placeholder{
+    font-family: var(--font-regular);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#404042;
+    padding: 1rem ;
+    border-radius:48px ;
+    width: 35rem;
+
+}
+.footer__input:focus{
+    outline: none;
+}
+.btn--footer{
+    font-family: var(--font-bold);
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    color: black;
+    border-radius:48px ;
+    padding: 1.5rem 2rem;
+}
+.footer_content{
+    font-family: var(--font-regular);
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #BEBEBE;
+margin-right: 2rem;
+
+}
+.gift-box{
+    position: absolute;
+    top: 0;
+    right: 2%;
+    /* transform: translate(-50%); */
+    transform: translateY(-30%);
+    
+    width: 60px;
+    height: 60px;
+    background-image: url("../../public//icons/gift-box.svg");
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+@media (max-width:700px) {
+    .footer{
+      flex-direction: column;
+      padding: 2rem;
+    }
+    .footer__form{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+    }
+    .footer__input,.btn--footer{
+width: 100%;
+    }
+    .footer_content{
+justify-self: flex-start;
+width: 100%;
+    }
+    .gift-box{
+       position: fixed;
+       top: unset;
+       bottom: 0;
+       z-index: 25;
+    }
+}

@@ -33,17 +33,18 @@ width: 90%;
 .logo-wrapper img{
     object-fit: contain;
 }
-@media (max-width:900px) {
+@media (max-width:800px) {
     .partners__logos{
         grid-template-columns: repeat(4,1fr);
+        
     }
 }
 @media (max-width:400px) {
     .partners__logos{
-        grid-template-columns: repeat(auto-fill,minmax(130px,1fr));
+        /* grid-template-columns: repeat(auto-fill,minmax(130px,1fr)); */
     }
     .logo-wrapper{
-        width: 120px;
-        height:60px;
+        /* width: 120px;
+        height:60px; */
         }   
 }

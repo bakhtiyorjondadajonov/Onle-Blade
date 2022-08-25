@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100;200;300;400;500;600;700;800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script type="module" src="../js/controller/controller.js"></script>
+  </head>
+  <body>
+    <div class="popup-container">
+      <div class="content-container">
+        <div class="cart-container">
+          <h1 class="title cart--title">cart</h1>
+          <h1 class="cart-close_btn">&times;</h1>
+          <div class="cart-product">
+            <div class="cart-product__img-box">
+              <img src="../public/product.png" alt="product" />
+            </div>
+            <div class="cart-product__details">
+              <div class="cart-product__name">Core Razor</div>
+              <div class="cart-product__color">Black</div>
+              <div class="cart-product__qty">
+                <span class="qty__minus">-</span>
+                <span class="qty__number">1</span>
+                <span class="qty__plus">+</span>
+              </div>
+            </div>
+            <div class="product__price product__price--cart">
+              <span class="current-price">$24.99</span>
+              <span class="original-price">$50.00</span>
+            </div>
+          </div>
+          <div class="cart-product">
+            <div class="cart-product__img-box">
+              <img src="../public/product.png" alt="product" />
+            </div>
+            <div class="cart-product__details">
+              <div class="cart-product__name">Core Razor</div>
+              <div class="cart-product__color">1 Oz.</div>
+              <div class="cart-product__qty">
+                <span class="qty__minus">-</span>
+                <span class="qty__number">1</span>
+                <span class="qty__plus">+</span>
+              </div>
+            </div>
+            <div class="product__price product__price--cart">
+              <span class="current-price">$24.99</span>
+              <span class="original-price">$50.00</span>
+            </div>
+          </div>
+          <a href="#" class="cart-suggestion">Get Refill Plan, Save 20%</a>
+        </div>
+        <div class="cart-container cart-container--add">
+          <div class="cart-product">
+            <div class="cart-product__img-box">
+              <img src="../public/product.png" alt="product" />
+            </div>
+            <div class="cart-product__details">
+              <div class="cart-product__name">Core Razor</div>
+              <div class="cart-product__notification">
+                $10 off when you add in the next 5 minutes
+              </div>
+              <div class="btn btn--add">Add</div>
+            </div>
+            <div class="product__price product__price--add">
+              <span class="original-price">$50.00</span>
+              <span class="current-price">$24.99</span>
+            </div>
+          </div>
+          <div class="cart-product">
+            <div class="cart-product__img-box">
+              <img src="../public/product.png" alt="product" />
+            </div>
+            <div class="cart-product__details">
+              <div class="cart-product__name">Core Razor</div>
+              <div class="cart-product__notification">
+                $10 off when you add in the next 5 minutes
+              </div>
+              <div class="btn btn--add">Add</div>
+            </div>
+            <div class="product__price product__price--add">
+              <span class="original-price">$50.00</span>
+              <span class="current-price">$24.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="cart-subtotal">
+          <div class="sub-title sub-title--cart">Subtotal</div>
+          <div class="subtotal__notification">
+            You’re $1 away from Free Shipping
+          </div>
+          <div class="indicator-box">
+            <div class="indicator">&nbsp;</div>
+          </div>
+          <div class="btn btn--dark btn--checkbox">checkout</div>
+          <div class="subtotal__affirm">
+            <span>Starting at %23/mo with</span>
+            <div class="affirm-img-box">&nbsp;</div>
+            <a href="#" class="affirm__link">.Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

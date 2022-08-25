@@ -24,7 +24,7 @@ background-color: var(--color-primary-light);
 
 }
 .media__content{
-width: 70%;
+width: 65%;
 grid-row: 1/2;
 background-color: var(--color-secondary-light);
 z-index: 5;
